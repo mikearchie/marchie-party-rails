@@ -2,12 +2,24 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def help
+  def attire
   end
 
-  def about
+  def events
   end
 
   def contact
+  end
+
+  def kids
+  end
+
+  def parkcity
+  end
+
+  def registry
+  end
+
+  def travel
   end
 end

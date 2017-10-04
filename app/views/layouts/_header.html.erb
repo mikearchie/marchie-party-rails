@@ -1,12 +1,31 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to "sample app", root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",   root_path %></li>
-        <li><%= link_to "Help",   help_path %></li>
-        <li><%= link_to "Log in", '#' %></li>
-      </ul>
+<header>
+    <nav class="navbar navbar-default navbar-static-top customNavBar">
+        <div class="container-fluid">
+            <div class="navbar-header bottomAlign">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-bottom: 0px">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="
+                padding-bottom: 0px;
+                padding-top: 44px;
+                letter-spacing: 0.2em;
+                ">#MARCHIEPARTY</a>
+            </div>
+
+            <div class="collapse navbar-collapse bottomAlign in" id="myNavbar" role="navigation">
+                <ul class="nav navbar-nav bottomAlign">
+                    <li id="navbar-events"><a class="menu-items" href="events">Schedule</a></li>
+                    <li id="navbar-travel"><a class="menu-items" href="travel">Travel/Hotel</a></li>
+                    <li id="navbar-attire"><a class="menu-items" href="attire">Attire</a></li>
+                    <li id="navbar-kids"><a class="menu-items" href="kids">Kids</a></li>
+                    <li id="navbar-registry"><a class="menu-items" href="registry">Registry</a></li>
+                    <li id="navbar-parkcity"><a class="menu-items" href="parkcity">Park City</a></li>
+                    <li id="navbar-contact"><a class="menu-items" href="contact">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
     </nav>
-  </div>
 </header>
